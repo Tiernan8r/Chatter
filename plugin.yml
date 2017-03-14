@@ -1,0 +1,15 @@
+main: me.Tiernanator.Chatter.Main
+version: 1.1
+name: Chatter
+description: A Plugin that handles player chats.
+load: POSTWORLD
+author: Tiernanator
+website: None
+database: false
+depend: [Utilities, Permissions, Factions]
+prefix: Tweeterrr
+softdepend: []
+loadbefore: []
+commands:
+    colourCodes:
+        description: List all available Colour Codes.
