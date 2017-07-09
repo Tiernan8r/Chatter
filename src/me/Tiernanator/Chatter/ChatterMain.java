@@ -7,7 +7,7 @@ import me.Tiernanator.Chatter.Chat.PlayerChat;
 import me.Tiernanator.Chatter.Command.ListColourCodes;
 import me.Tiernanator.Chatter.Event.PlayerServerJoinAndExitMessage;
 
-public class Main extends JavaPlugin {
+public class ChatterMain extends JavaPlugin {
 	
 	//initialise the event and command handlers when the plugin is loaded.
 	@Override

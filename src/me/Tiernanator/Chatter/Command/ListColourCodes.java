@@ -5,12 +5,12 @@ import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
 
-import me.Tiernanator.Chatter.Main;
+import me.Tiernanator.Chatter.ChatterMain;
 import me.Tiernanator.Colours.Colour;
 
 public class ListColourCodes implements CommandExecutor {
 
-	public ListColourCodes(Main main) {
+	public ListColourCodes(ChatterMain main) {
 	}
 
 	// a long list that shows all available colour codes to the player when they

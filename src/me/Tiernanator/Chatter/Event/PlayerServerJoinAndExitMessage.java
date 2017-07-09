@@ -7,7 +7,7 @@ import org.bukkit.event.Listener;
 import org.bukkit.event.player.PlayerJoinEvent;
 import org.bukkit.event.player.PlayerQuitEvent;
 
-import me.Tiernanator.Chatter.Main;
+import me.Tiernanator.Chatter.ChatterMain;
 import me.Tiernanator.Colours.MessageColourer;
 import me.Tiernanator.Factions.Factions.Faction;
 import me.Tiernanator.Factions.Factions.FactionAccessor;
@@ -16,7 +16,7 @@ import me.Tiernanator.Permissions.Group.GroupAccessor;
 
 public class PlayerServerJoinAndExitMessage implements Listener {
 
-	public PlayerServerJoinAndExitMessage(Main main) {
+	public PlayerServerJoinAndExitMessage(ChatterMain main) {
 	}
 
 	//An event handler that shows the player's faction and group when they log in.

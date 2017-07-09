@@ -6,7 +6,7 @@ import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.player.AsyncPlayerChatEvent;
 
-import me.Tiernanator.Chatter.Main;
+import me.Tiernanator.Chatter.ChatterMain;
 import me.Tiernanator.Colours.MessageColourer;
 import me.Tiernanator.Factions.Factions.Faction;
 import me.Tiernanator.Factions.Factions.FactionAccessor;
@@ -15,7 +15,7 @@ import me.Tiernanator.Permissions.Group.GroupAccessor;
 
 public class PlayerChat implements Listener {
 
-	public PlayerChat(Main main) {
+	public PlayerChat(ChatterMain main) {
 	}
 
 	// Handles player chatting, giving them coloured messages from colour codes and displays their faction & group.
