@@ -8,11 +8,11 @@ import org.bukkit.event.player.PlayerJoinEvent;
 import org.bukkit.event.player.PlayerQuitEvent;
 
 import me.Tiernanator.Chatter.ChatterMain;
-import me.Tiernanator.Colours.MessageColourer;
 import me.Tiernanator.Factions.Factions.Faction;
 import me.Tiernanator.Factions.Factions.FactionAccessor;
 import me.Tiernanator.Permissions.Group.Group;
 import me.Tiernanator.Permissions.Group.GroupAccessor;
+import me.Tiernanator.Utilities.Colours.MessageColourer;
 
 public class PlayerServerJoinAndExitMessage implements Listener {
 

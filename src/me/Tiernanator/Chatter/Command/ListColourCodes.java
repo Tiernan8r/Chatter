@@ -6,7 +6,7 @@ import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
 
 import me.Tiernanator.Chatter.ChatterMain;
-import me.Tiernanator.Colours.Colour;
+import me.Tiernanator.Utilities.Colours.Colour;
 
 public class ListColourCodes implements CommandExecutor {
 

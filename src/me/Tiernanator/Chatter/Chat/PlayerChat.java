@@ -7,11 +7,11 @@ import org.bukkit.event.Listener;
 import org.bukkit.event.player.AsyncPlayerChatEvent;
 
 import me.Tiernanator.Chatter.ChatterMain;
-import me.Tiernanator.Colours.MessageColourer;
 import me.Tiernanator.Factions.Factions.Faction;
 import me.Tiernanator.Factions.Factions.FactionAccessor;
 import me.Tiernanator.Permissions.Group.Group;
 import me.Tiernanator.Permissions.Group.GroupAccessor;
+import me.Tiernanator.Utilities.Colours.MessageColourer;
 
 public class PlayerChat implements Listener {
 
